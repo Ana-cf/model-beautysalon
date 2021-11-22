@@ -597,7 +597,7 @@ footer.section {
 
   /* services */
   .cards {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 
   .card {
@@ -609,6 +609,7 @@ footer.section {
   #testimonials .container {
     margin-left: auto;
     margin-right: auto;
+    overflow-x: hidden;
   }
 
   /* contact */
